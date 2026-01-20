@@ -1,0 +1,43 @@
+{
+    "name": "aivopro/currency-beacon",
+    "description": "Currency Beacon integration for AiVoPro",
+    "type": "aivopro-plugin",
+    "version": "2.0.0",
+    "homepage": "https://28facil.com.br",
+    "time": "2026-01-19",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AiVoPro",
+            "email": "contato@28facil.com.br",
+            "homepage": "https://28facil.com.br",
+            "role": "Owner"
+        }
+    ],
+    "support": {
+        "chat": "https://28facil.com.br/",
+        "docs": "https://currencybeacon.com/api-documentation",
+        "email": "contato@28facil.com.br",
+        "forum": "https://28facil.com.br/",
+        "issues": "https://github.com/OARANHA/aivopro-currency-beacon/issues",
+        "rss": "https://28facil.com.br/",
+        "source": "https://github.com/OARANHA/aivopro-currency-beacon",
+        "wiki": "https://currencybeacon.com/api-documentation"
+    },
+    "require": {
+        "aivopro/composer": "^1.0.0"
+    },
+    "extra": {
+        "entry-class": "AiVoPro\\CurrencyBeacon\\Plugin",
+        "status": "active",
+        "title": "Currency Beacon",
+        "description": "Currency Beacon integration for AiVoPro - Real-time exchange rates and currency conversion",
+        "logo": "https://cdn.28facil.com.br/plugins/currency-beacon/logo.svg",
+        "icon": "https://cdn.28facil.com.br/plugins/currency-beacon/icon.svg"
+    },
+    "autoload": {
+        "psr-4": {
+            "AiVoPro\\CurrencyBeacon\\": "src/"
+        }
+    }
+}
